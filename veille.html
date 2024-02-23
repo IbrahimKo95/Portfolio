@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Veille</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"  rel="stylesheet" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body class="bg-gray-900">
+<div id="particles-js" class="h-screen bg-gray-900 fixed z-0"></div>
+<article class="transparent w-full h-screen relative">
+  <nav class="border-gray-200 transparent">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+      <a href="https://flowbite.com/" class="flex items-center">
+        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent bg-gray-800 md:bg-gray-900 border-gray-700">
+          <li class="slide-down">
+            <a href="index.html#" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white text-lg" aria-current="page"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+              Accueil</a>
+          </li>
+          <li class="slide-down">
+            <a href="index.html#whoiam" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 text-gray-900 rounded md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent text-lg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+              Qui suis-je ?</a>
+          </li>
+          <li class="slide-down">
+            <a href="index.html#project" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 text-gray-900 rounded md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent text-lg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
+            </svg>
+              Projets</a>
+          </li>
+          <li class="slide-down">
+            <a href="index.html#" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 text-gray-900 rounded md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent text-lg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+            </svg>
+              Parcours</a>
+          </li>
+          <li class="slide-down">
+            <a href="index.html#" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 text-gray-900 rounded md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent text-lg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+            </svg>
+              Compétences</a>
+          </li>
+          <li class="slide-down">
+            <a href="index.html#contact" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 text-gray-900 rounded md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent text-lg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+              Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="transparent mt-56">
+    <div class="flex justify-center">
+      <div class="flex flex-col items-center">
+        <h1 class="border-b-4 border-blue-500 text-white text-5xl font-bold mb-7 pb-3">Veille technologique</h1>
+        <h2 class="text-white text-3xl mb-3">Les technologies du web</h2>
+      </div>
+    </div>
+  </section>
+</article>
+<article class="relative px-10 max-w-6xl mx-auto mb-10">
+  <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center text-white">
+      <h2 class="text-4xl mb-5 font-bold">Introduction</h2>
+      <h3 class="text-3xl">Qu'est ce qu'une veille technologique ?</h3>
+    </div>
+    <div class="text-gray-500 flex flex-col items-center justify-center text-center mt-16 text-lg">
+      <div class="w-96 h-1 bg-blue-500 mb-7"></div>
+      <p>La veille technologique est une activité qui emploie des techniques d'acquisition, de stockage et d'analyse d'informations concernant un produit ou procédé. Il faut donc s'informer continuellement et systématiquement sur un sujet où l'on souhaite faire de la veille technologique.</p>
+      <p>Elle permet de voir les nouveautés technologiques, les inventions et problèmes de sécurité ou plus largement les nouveautés d’un secteur concerné afin d’être le meilleur dans son domaine. </p>
+      <div class="w-96 h-1 bg-blue-500 mt-7"></div>
+    </div>
+    <div class="flex flex-col items-center text-white mt-16">
+      <h3 class="text-3xl">Le choix de ma veille</h3>
+    </div>
+    <div class="text-gray-500 flex flex-col items-center justify-center text-center mt-16 text-lg">
+      <div class="w-96 h-1 bg-blue-500 mb-7"></div>
+      <p>J'ai décidé de concentrer ma veille technologique sur les technologies du web pour plusieurs raisons, principalement liées à mon objectif de devenir développeur full stack. En effet, en me tenant informé des dernières avancées dans ce domaine, je peux mieux comprendre les tendances émergentes, les nouveaux frameworks, les outils de développement et les bonnes pratiques.</p>
+      <p> De plus, étant donné que le paysage technologique du web évolue rapidement, investir dans cette veille me semble être le choix le plus pertinent pour rester à jour dans ce domaine.</p>
+      <div class="w-96 h-1 bg-blue-500 mt-7"></div>
+    </div>
+  </div>
+</article>
+<article class="relative px-10 max-w-6xl mx-auto mb-32 mt-56">
+  <div class="flex flex-col items-center text-white mb-10">
+    <h2 class="text-4xl mb-5 font-bold">Mes outils de veille</h2>
+  </div>
+  <div class="flex flex-row text-custom3 gap-20 text-lg">
+    <div class="w-2/4 flex flex-col items-center">
+      <h3 class="text-green-500 text-2xl mb-3 font-bold">Feedly</h3>
+      <div class="text-justify border-t-4 border-blue-500 pt-5">
+        <p class="text-gray-500">Feedly est une plateforme qui permet de suivre facilement les actualités et contenus de sites web préférés. Il organise les flux RSS selon les intérêts de l'utilisateur, offrant une interface conviviale pour une navigation fluide à travers les articles et les actualités.</p>
+      </div>
+    </div>
+    <div class="w-2/4 flex flex-col items-center">
+      <h3 class="text-purple-500 text-2xl mb-3 font-bold">Daily.dev</h3>
+      <div class="text-justify border-t-4 border-blue-500 pt-5">
+        <p class="text-gray-500">daily.dev est une plateforme de veille technologique pour les développeurs. Elle agrège des actualités, des tutoriels et des articles de développement web, offrant une expérience de lecture personnalisée et pratique grâce à une extension de navigateur qui affiche les meilleurs articles chaque jour sur l'écran de nouvel onglet.</p>
+      </div>
+    </div>
+  </div>
+  <div class="text-lg text-center flex justify-center mt-20">
+    <p class="text-gray-500">J'utilisais Feedly au début de ma veille mais j'ai finalement choisi d'utiliser en priorité Daily.dev car je trouvais la plateforme beaucoup plus adaptée à ce que je souhaitais.</p>
+  </div>
+</article>
+
+<footer class=" rounded-lg shadow bg-gray-800 relative bot-0">
+  <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Ibrahim™</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+      <li>
+        <a href="#whoiam" class="mr-4 hover:underline md:mr-6 ">Qui suis-je ?</a>
+      </li>
+      <li>
+        <a href="#project" class="mr-4 hover:underline md:mr-6">Projets</a>
+      </li>
+      <li>
+        <a href="#" class="mr-4 hover:underline md:mr-6">Parcours</a>
+      </li>
+      <li>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+<script>
+  const words = ["Développeur web", "Développeur logiciel", "Technicien réseau"];
+  let i = 0;
+  let counter;
+  function typeNow() {
+    let word = words[i].split("");
+    let loopTyping = function() {
+      if (word.length > 0) {
+        document.getElementById('textChange').innerHTML += word.shift();
+      } else {
+        setTimeout(deleteNow, 500);
+        return false;
+      };
+      counter = setTimeout(loopTyping, 180);
+    };
+    loopTyping();
+  };
+  function deleteNow() {
+    let word = words[i].split("");
+    var loopDeleting = function() {
+      if (word.length > 0) {
+        word.pop();
+        document.getElementById('textChange').innerHTML = word.join("");
+      } else {
+        if (words.length > (i + 1)) {
+          i++;
+        }
+        else {
+          i = 0;
+        };
+        typeNow();
+        return false;
+      };
+      counter = setTimeout(loopDeleting, 50);
+    };
+    loopDeleting();
+  };
+  typeNow();
+
+  document.querySelectorAll('a[href^="#"]').forEach(elem => {
+    elem.addEventListener('click', e => {
+      e.preventDefault();
+      document.querySelector(elem.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth',
+        offsetTop: 20
+      });
+    });
+  });
+
+  window.addEventListener('scroll', reveal);
+  function reveal() {
+    var reveals = document.querySelectorAll('.reveal');
+    for(let i = 0; i < reveals.length; i++) {
+      let windowHeight = window.innerHeight;
+      let revealTop = reveals[i].getBoundingClientRect().top;
+      let revealPoint = 150
+      if(revealTop < windowHeight - revealPoint) {
+        reveals[i].classList.add('active');
+      }
+    }
+  }
+</script>
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script>
+  function sendMail() {
+    let email = document.getElementById('email');
+    let subject = document.getElementById('subject');
+    let message = document.getElementById('message');
+    Email.send({
+      Host : "smtp.elasticemail.com",
+      Username : "ibrahkonate95@gmail.com",
+      Password : "350F42902D626E92D81D07957575FBE73E84",
+      To : 'ibrahkonate95@gmail.com',
+      From : "ibrahkonate95@gmail.com",
+      Subject : subject.value,
+      Body : `Mail par : ${email.value} <hr> Contenu : ${message.value}`
+    }).then( (send) =>
+            alert(send)
+    );
+  }
+</script>
+</body>
+
+<style>
+
+  #barAnimation:last-of-type {
+    animation: type 0.33s infinite;
+  }
+  @keyframes type{
+    to { opacity: .0; }
+  }
+
+  .boxShadowProject {
+    box-shadow: 0 4px 5px 3px rgb(30 58 138)!important;
+  }
+
+  .boxShadowProject:hover {
+    box-shadow: 0 6px 7px 5px rgb(30 58 138)!important;
+  }
+
+  .reveal {
+    position: relative;
+    transform: translateY(200px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  .reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .slide-right {
+    animation: 1s slide-right;
+  }
+  @keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  .slide-left {
+    animation: 1s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  .slide-down {
+    animation: 500ms slide-down;
+  }
+
+  @keyframes slide-down {
+    from {
+      margin-top: -100%;
+    }
+    to {
+      margin-top: 0%;
+    }
+  }
+</style>
+
+</html>
