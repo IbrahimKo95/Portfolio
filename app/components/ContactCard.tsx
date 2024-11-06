@@ -1,5 +1,4 @@
 import { Card } from "@/components/ui/card";
-import GithubIcon from "@/app/components/Icons/GithubIcon";
 import { motion } from "framer-motion";
 import { ReactNode } from "react";
 
