@@ -1,0 +1,24 @@
+[
+  {
+    "date": "Janvier 2024 - Août 2024",
+    "company": "Saint Joseph Lasalle",
+    "title": "Technicien informatique / Surveillant",
+    "description": "Supervision de 1000 tablettes, installation de postes, gestion des tickets, support utilisateur et rédaction de procédures.",
+    "iconUrl": "https://www.hoteldelasalle.fr/wp-content/uploads/2018/11/logo_la_salle.png"
+  },
+  {
+    "date": "2023 - 2023",
+    "company": "Ocean Export",
+    "title": "Développeur web",
+    "description": "Apprentissage de Laravel, développement d’un site de gestion de points de fidélité et d’une plateforme d'envoi de colis par bateau.",
+    "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7dUPk9gGm-oCUduhawv3hJ6KBXdW9Rw-KpA&s"
+  },
+  {
+    "date": "2022 - 2022",
+    "company": "La CGT de Pantin",
+    "title": "Développeur web",
+    "description": "Réalisation d’une maquette sur figma, Développement d'un Site Internet en HTML et CSS et Création de Fiches de Procédure",
+    "iconUrl": "https://cdn2.telephone.city/webp/200/cgt.png"
+  }
+
+]

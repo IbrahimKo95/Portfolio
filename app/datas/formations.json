@@ -1,0 +1,21 @@
+[
+  {
+    "date": "Septembre 2024 - Juillet 2025",
+    "school": "ESGI",
+    "title": "Bachelor Ingénierie du Web",
+    "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-h8N_vhwK_NfSK7oLZJHrWQhnKVZpYmJPpA&s"
+  },
+  {
+    "date": "Septembre 2022 - Juillet 2024",
+    "school": "Lycée technique Robert Schuman",
+    "title": "BTS SIO option SLAM",
+    "iconUrl": "https://www.cerfal-apprentissage.fr/public/uploads/2021/07/50-Lycee-Robert-Schuman.jpg"
+  },
+  {
+    "date": "Septembre 2019 - Juillet 2022",
+    "school": "Lycée technique Robert Schuman",
+    "title": "Bacccaulauréat professionnel SN",
+    "iconUrl": "https://www.cerfal-apprentissage.fr/public/uploads/2021/07/50-Lycee-Robert-Schuman.jpg"
+  }
+
+]
