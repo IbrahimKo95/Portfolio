@@ -1,12 +1,8 @@
 "use client"
 import Section from "@/app/components/Section";
-import {Card} from "@/components/ui/card";
 import GithubIcon from "@/app/components/Icons/GithubIcon";
 import LinkedinIcon from "@/app/components/Icons/LinkedinIcon";
 import {LucideMail, PhoneCallIcon} from "lucide-react";
-import {motion} from "framer-motion";
-import {useState} from "react";
-import {fadeIn} from "@/app/components/Animations/variant";
 import ContactCard from "@/app/components/ContactCard";
 
 export default function Contact() {

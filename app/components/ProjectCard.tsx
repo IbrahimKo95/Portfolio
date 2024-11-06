@@ -1,7 +1,6 @@
 "use client";
 import { Card } from "@/components/ui/card";
 import GithubIcon from "@/app/components/Icons/GithubIcon";
-import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/app/components/Animations/variant";

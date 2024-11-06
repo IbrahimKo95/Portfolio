@@ -1,5 +1,4 @@
 import Section from "@/app/components/Section";
-import {Card} from "@/components/ui/card";
 import ReactIcon from "@/app/components/Icons/ReactIcon";
 import NextIcon from "@/app/components/Icons/NextIcon";
 import TailwindIcon from "@/app/components/Icons/TailwindIcon";

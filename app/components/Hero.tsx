@@ -1,7 +1,7 @@
 "use client";
 import Section from "@/app/components/Section";
 import {motion} from "framer-motion";
-import {draw, fadeIn} from "@/app/components/Animations/variant";
+import {fadeIn} from "@/app/components/Animations/variant";
 import {useState} from "react";
 
 

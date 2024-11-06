@@ -1,5 +1,4 @@
 import Section from "@/app/components/Section";
-import {Card} from "@/components/ui/card";
 import projects from "../datas/projects.json";
 import ProjectCard from "@/app/components/ProjectCard";
 

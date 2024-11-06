@@ -1,5 +1,4 @@
 "use client";
-import {Card} from "@/components/ui/card";
 import {motion} from "framer-motion";
 import {fadeIn} from "@/app/components/Animations/variant";
 import {useState} from "react";
