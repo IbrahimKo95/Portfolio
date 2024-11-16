@@ -13,10 +13,10 @@ export default function header() {
                 <nav>
                     <ul className="flex flex-row gap-x-2">
                         <li>
-                            <Button variant='outline' className="rounded-xl"><GithubIcon size={20}/></Button>
+                            <a href="https://github.com/IbrahimKo95"><Button variant='outline' className="rounded-xl"><GithubIcon size={20}/></Button></a>
                         </li>
                         <li>
-                            <Button variant='outline' className="rounded-xl"><LinkedinIcon size={20}/></Button>
+                            <a href="https://www.linkedin.com/in/ibrahim-konat%C3%A9-22620b262/"><Button variant='outline' className="rounded-xl"><LinkedinIcon size={20}/></Button></a>
                         </li>
                     </ul>
                 </nav>

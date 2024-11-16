@@ -1,5 +1,12 @@
 [
   {
+    "title": "CineVerse",
+    "stack": "Next.js - Tailwind - Shadcn",
+    "description": "Cineverse est un site web permettant de rechercher des films et des séries, et d'afficher leurs informations détaillées (date de sortie, synopsis, acteurs, etc...).",
+    "gitUrl": "https://github.com/IbrahimKo95/cine-verse",
+    "imgUrl": "https://github.com/IbrahimKo95/cine-verse/blob/master/screenshots/Screenshot.png?raw=true"
+  },
+  {
     "title": "Init",
     "stack": "Next.js - AdonisJs - Tailwind - MySQL",
     "description": "Init est un site web permettant de créer des schémas de bases de données visuellement, puis de les exporter en SQL, migrations, ou modèles de code.",
@@ -11,21 +18,13 @@
     "stack": "Laravel - PHP - MySQL - Tailwind",
     "description": "Safeplace est une plateforme connectant hôpitaux et étudiants, où les hôpitaux publient des offres d'emploi et organisent des événements.",
     "gitUrl": "github.com",
-    "imgUrl": "https://github.com/IbrahimKo95/Portfolio/blob/main/img/projet/safeplace.png?raw=true"
+    "imgUrl": "https://media.discordapp.net/attachments/1016748525922566155/1214150141208957008/image.png?ex=6739be6f&is=67386cef&hm=d64dfcfecbe116c3f772f536844c4f013d7f98d96bcdfdb7acd627731eebdd85&=&format=webp&quality=lossless"
   },
   {
     "title": "HSP Java",
     "stack": "Java - JavaFX - MySQL",
     "description": "HSP est une application de gestion de stock pour les hôpitaux, permettant de gérer les dossiers patients, les stocks, les commandes et les fournisseurs",
     "gitUrl": "github.com",
-    "imgUrl": "https://github.com/IbrahimKo95/Portfolio/blob/main/img/projet/rhpjava.png?raw=true"
-  },
-  {
-    "title": "SafePlace PHP",
-    "stack": "Laravel - PHP - MySQL - Tailwind",
-    "description": "Bachelor Ingénierie du Web",
-    "gitUrl": "github.com",
-    "imgUrl": "https://github.com/IbrahimKo95/Portfolio/blob/main/img/projet/safeplace.png?raw=true"
+    "imgUrl": "https://i.ibb.co/HzrwyN4/rhpjava.png"
   }
-
 ]
