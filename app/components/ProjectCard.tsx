@@ -5,7 +5,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/app/components/Animations/variant";
 
-export default function ProjectCard(props: { title: string, stack: string, description: string, imgUrl: string, gitUrl: string }) {
+export default function ProjectCard(props: { title: string, stack: string, description: string, imgUrl: string, gitUrl: string, demoUrl: string }) {
     const [hasAnimated, setHasAnimated] = useState(false);
 
     return (
@@ -21,11 +21,11 @@ export default function ProjectCard(props: { title: string, stack: string, descr
             className="col-span-2"
         >
             <Card className="h-full flex flex-col p-4">
-                <img
+                <a href={props.demoUrl}><img
                     alt={props.title}
                     src={props.imgUrl}
                     className="w-full h-52 object-cover rounded-md mb-4"
-                />
+                /></a>
                 <div className="flex flex-col">
                     <div className="flex w-full items-center">
                         <h3 className="font-bold text-lg">{props.title}</h3>
